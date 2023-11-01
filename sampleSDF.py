@@ -123,8 +123,8 @@ num_samp_near_surf_ratio = 47 / 50
 visualizationWithColor = True
 visualizationWithDistance = True
 
-ref_obj_path = 'D:\\Dataset\\SJTU-MQA\\reference_dataset\\deadRose\\deadRose.obj'
-ref_tex_path = 'D:\\Dataset\\SJTU-MQA\\reference_dataset\\deadRose\\deadRose.jpg'
+ref_obj_path = './deadRose/deadRose.obj'
+ref_tex_path = './deadRose/deadRose.jpg'
 ms = pymeshlab.MeshSet()
 ms.load_new_mesh(ref_obj_path)
 
